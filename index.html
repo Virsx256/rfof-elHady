@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مؤسسة ابن هادي للرفوف</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+  <!-- Lightbox مكتبة تكبير الصور -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      color: #333;
+      direction: rtl;
+    }
+    header {
+      background: linear-gradient(to left, #2e7d32, #1b5e20);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.3em;
+    }
+    nav {
+      background: #1b5e20;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a5d6a7;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    ul {
+      line-height: 2;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery a img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .gallery a img:hover {
+      transform: scale(1.05);
+    }
+    .button, .whatsapp-button {
+      display: inline-block;
+      background: #1b5e20;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .button:hover, .whatsapp-button:hover {
+      background: #43a047;
+    }
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      font-size: 16px;
+      z-index: 1000;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>مؤسسة ابن هادي للرفوف</h1>
+  <p>حلول احترافية لتجهيز رفوف المحلات والمستودعات</p>
+</header>
+
+<nav>
+  <a href="#services">خدماتنا</a>
+  <a href="#gallery">معرض الصور</a>
+  <a href="#about">عن المؤسسة</a>
+  <a href="#contact">تواصل معنا</a>
+</nav>
+
+<div class="container">
+
+  <section id="services">
+    <h2>خدماتنا</h2>
+    <ul>
+      <li>توريد وتجهيز الرفوف للبقالات والأسواق والمكاتب والمنازل.</li>
+      <li>حلول متكاملة للرفوف الخفيفة والثقيلة.</li>
+      <li>بيع رفوف جديدة ومستعملة بحالة ممتازة.</li>
+      <li>شراء رفوف واستاندات مستعملة بجميع الأحجام.</li>
+      <li>فك وتركيب جميع أنواع الرفوف.</li>
+    </ul>
+    <a href="#contact" class="button">احصل على عرض سعر</a>
+  </section>
+
+  <section id="gallery">
+    <h2>معرض الصور</h2>
+    <div class="gallery">
+      <a href="images/raf1.png" data-lightbox="raf-gallery" data-title="رفوف 1">
+        <img src="images/raf1.png" alt="رفوف 1">
+      </a>
+      <a href="images/raf2.png" data-lightbox="raf-gallery" data-title="رفوف 2">
+        <img src="images/raf2.png" alt="رفوف 2">
+      </a>
+      <a href="images/raf3.png" data-lightbox="raf-gallery" data-title="رفوف 3">
+        <img src="images/raf3.png" alt="رفوف 3">
+      </a>
+      <a href="images/raf4.png" data-lightbox="raf-gallery" data-title="رفوف 4">
+        <img src="images/raf4.png" alt="رفوف 4">
+      </a>
+      <a href="images/raf5.png" data-lightbox="raf-gallery" data-title="رفوف 5">
+        <img src="images/raf5.png" alt="رفوف 5">
+      </a>
+      <a href="images/raf6.png" data-lightbox="raf-gallery" data-title="رفوف 6">
+        <img src="images/raf6.png" alt="رفوف 6">
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>عن المؤسسة</h2>
+    <p>مؤسسة ابن هادي للرفوف متخصصة في تقديم حلول احترافية لتجهيز المحلات والمستودعات بأحدث أنواع الرفوف بجودة عالية وأسعار منافسة. نقدم خدماتنا للمنازل والمكاتب التجارية والمخازن ونحرص دائماً على رضا عملائنا.</p>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>للاستفسار أو لطلب عرض سعر، يمكنك التواصل معنا عبر:</p>
+    <ul>
+      <li>الجوال: <strong>0500000000</strong></li>
+      <li>البريد الإلكتروني: <strong>info@ibn-hadi.com</strong></li>
+    </ul>
+    <a href="https://wa.me/966500000000" target="_blank" class="button">راسلنا على واتساب</a>
+  </section>
+
+</div>
+
+<footer>
+  جميع الحقوق محفوظة &copy; مؤسسة ابن هادي للرفوف 2025
+</footer>
+
+<!-- زر واتساب عائم -->
+<a href="https://wa.me/966500000000" class="whatsapp-button" target="_blank">
+  واتساب
+</a>
+
+<!-- سكربت مكتبة Lightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>
